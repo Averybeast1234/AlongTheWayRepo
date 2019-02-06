@@ -15,8 +15,8 @@ const LONGITUDE_DELTA = LATITUDE_DELTA * ASPECT_RATIO;
 
 
 
-
-
+// This was just an experiment on how to call mapView
+//This isnt used in the demo I made but if you call it it will work but buttons wont work. you can try replacing <MapGui /> with this.
 
 export default class MainView extends Component {
 constructor(props){
