@@ -75,7 +75,7 @@ export default class App extends Component {
 
 
                {/* Control bar is just a basic UI component that i put buttons on*/}
-               {/* I pass a function to it like described in class. */}
+               {/* I pass a function to it like described in class.  i call it redClick but this name is arbitrary*/}
 
            <ControlBar redClick = {this.onRedClick.bind(this)}/>
 
