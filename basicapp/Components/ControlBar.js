@@ -25,7 +25,7 @@ export default class ControlBar extends Component {
     return (
 
       <View style ={styles.layout} >
-
+       {/* This is where the function passsed from parent(App.js) is used */}
           <TouchableOpacity onPress = {this.props.redClick}>
             <View style ={styles.button1} />
           </TouchableOpacity>
